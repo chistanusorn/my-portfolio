@@ -63,14 +63,25 @@ const Projects = () => {
 
   // ข้อมูล Academic Records
   const academicRecords = [
-    { code: "CS101", subject: "Fundamentals of Programming", grade: "A" },
-    { code: "CS102", subject: "Data Structures & Algorithms", grade: "A" },
-    { code: "WEB201", subject: "Web Application Development", grade: "A" },
-    { code: "DB301", subject: "Database Management Systems", grade: "B+" },
-    { code: "SE400", subject: "Software Engineering", grade: "A" },
+    { code: "CS111", subject: "Fundamental programming", grade: "B+" },
+    { code: "CS112", subject: "Information and communication technology", grade: "B+" },
+    { code: "CS114", subject: "Computer organization and architecture", grade: "B" },
+    { code: "CS212", subject: "Programmer and problem solving", grade: "A" },
+    { code: "CS141", subject: "Introduction to computer network", grade: "A" },
+    { code: "CS221", subject: "object oriented analysis and design", grade: "B+" },
+    { code: "CS222", subject: "Data structure and algorithm", grade: "B+" },
+    { code: "CS223", subject: "Structure relational database ", grade: "B" },
+    { code: "CS224", subject: "Unstructured database", grade: "B+" },
+    { code: "CS225", subject: "Software engineer", grade: "B+" },
+    { code: "CS231", subject: "Web programming", grade: "A" },
+    { code: "CS232", subject: "Server-side system development", grade: "A" },
+    { code: "CS233", subject: "Software development for mobile device", grade: "B+" },
+    { code: "CS314", subject: "Principles of object oriented programming", grade: "A" },
+    { code: "CS341", subject: "Cryptography and network security", grade: "A" },
+    { code: "CS385", subject: "Management information system", grade: "A" },
   ];
 
-  // หัวข้อหลัก 3 กล่อง
+  // ข้อมูลหัวข้อหลัก
   const items = [
     {
       id: 1,
