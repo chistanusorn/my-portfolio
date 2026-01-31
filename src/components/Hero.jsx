@@ -49,8 +49,7 @@ const Hero = () => {
           
           {/* รูปภาพที่มี Animation ลอยตัว (animate-float) */}
           <img 
-            src="https://scontent-bkk1-1.xx.fbcdn.net/v/t39.30808-6/487925231_3855496798021860_3958984304276536089_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHV0agd0w_70KVe420FsNd9fksWl5Y99Ol-SxaXlj306SiGmsUKCU3gac2kjRBzrc_ouY7FYw1fgasqmuu-cih8&_nc_ohc=qZNfAWhuxCUQ7kNvwGvYiMM&_nc_oc=Adk7Ui6cy0BbySgxDLpz85e8mHV0yQN6MJ6jgEXHaBuRTa1AF_8Hnqhc7GMIOkcbfuM&_nc_zt=23&_nc_ht=scontent-bkk1-1.xx&_nc_gid=aVoJT39D_jD7oSNtAAsRfw&oh=00_AfoQb-C078uQ4D9-2QKxn4GTNKbP8GBfey4C2wEsWQJaKw&oe=6978F5FA" 
-            alt="Profile" 
+            src="/images/profile.jpg"
             className="relative rounded-2xl shadow-2xl border-4 border-white rotate-3 hover:rotate-0 transition duration-500 w-64 md:w-80 animate-float"
           />
         </div>
