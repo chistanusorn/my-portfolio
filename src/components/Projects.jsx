@@ -24,6 +24,13 @@ const Projects = () => {
       desc: "แอพพลิเคชั่นตรวจสอบไวยากรณ์ภาษาไทยโดยใช้เทคโนโลยีปัญญาประดิษฐ์ (AI) และการประมวลผลภาษาธรรมชาติ (NLP) เพื่อช่วยให้ผู้ใช้สามารถเขียนข้อความที่ถูกต้องตามหลักไวยากรณ์",
       videoUrl: "https://www.youtube.com/embed/jkhVQjdpJR0", 
     },
+    {
+      id: 3,
+      title: "Ai Face Recognition",
+      tech: ['AI', 'Face Recognition'],
+      desc: "เว็บแอพที่สามารถใช้งานได้ทั้งบนมือถือและคอมพิวเตอร์ โดยใช้ Frontend เป็น React เลือกรันบน Netlify และใช้ React Webcam ดึงภาพจากกล้องและดึงพิกัด GPS ผ่าน Browser API ในส่วนของ Backend ใช้ Python กับ Fast API และ Ngrok ในการทำ Tunnel เพื่อให้เว็บคุยกับ Local ได้ และ Database ใช้ Mysql ออกแบบตารางเพื่อเก็บประวัติแบบ Relational Database , AI Model ใช้ DeepFace โมเดล Facenet ใน Face Embeddings ให้ออกมาเป็นชุดตัวเลข เพื่อนำมาเปรียบเทียบ",
+      videoUrl: "https://www.youtube.com/embed/dQ6FVWgfQ9E",
+    },
   ];
 
   // =========================================================
